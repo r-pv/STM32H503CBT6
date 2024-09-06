@@ -3,6 +3,11 @@
 # and changed if needed.
 # See: https://github.com/stm32duino/Arduino_Core_STM32/wiki/Add-a-new-variant-%28board%29
 
+
+# if board doesn't appear follow: https://github.com/arduino/arduino-ide/issues/1030#issuecomment-1152005617
+# delete folder content: C:\Users\<user name>\AppData\Roaming\arduino-ide\
+
+
 # Generic H503CBTx
 GenH5.menu.pnum.GENERIC_H503CBTX=Generic H503CBTx
 GenH5.menu.pnum.GENERIC_H503CBTX.upload.maximum_size=131072
@@ -10,6 +15,7 @@ GenH5.menu.pnum.GENERIC_H503CBTX.upload.maximum_data_size=32768
 GenH5.menu.pnum.GENERIC_H503CBTX.build.board=GENERIC_H503CBTX
 GenH5.menu.pnum.GENERIC_H503CBTX.build.product_line=STM32H503xx
 GenH5.menu.pnum.GENERIC_H503CBTX.build.variant=STM32H5xx/H503CB(T-U)
+GenH5.menu.pnum.GENERIC_H503CBTX.debug.svd_file={runtime.tools.STM32_SVD.path}/svd/STM32H5xx/STM32H503.svd
 
 # Generic H503CBUx
 GenH5.menu.pnum.GENERIC_H503CBUX=Generic H503CBUx
@@ -18,6 +24,8 @@ GenH5.menu.pnum.GENERIC_H503CBUX.upload.maximum_data_size=32768
 GenH5.menu.pnum.GENERIC_H503CBUX.build.board=GENERIC_H503CBUX
 GenH5.menu.pnum.GENERIC_H503CBUX.build.product_line=STM32H503xx
 GenH5.menu.pnum.GENERIC_H503CBUX.build.variant=STM32H5xx/H503CB(T-U)
+GenH5.menu.pnum.GENERIC_H503CBUX.debug.svd_file={runtime.tools.STM32_SVD.path}/svd/STM32H5xx/STM32H503.svd
+
 
 
 
@@ -28,3 +36,5 @@ GenH5.menu.pnum.GENERIC_H503CBTX.upload.maximum_data_size=32768
 GenH5.menu.pnum.GENERIC_H503CBTX.build.board=GENERIC_H503CBTX
 GenH5.menu.pnum.GENERIC_H503CBTX.build.product_line=STM32H503xx
 GenH5.menu.pnum.GENERIC_H503CBTX.build.variant=STM32H5xx/H503CBT
+GenH5.menu.pnum.GENERIC_H503CBUX.debug.svd_file={runtime.tools.STM32_SVD.path}/svd/STM32H5xx/STM32H503.svd
+
